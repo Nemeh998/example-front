@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Header from './componants/Header'
 import Main from './componants/Main'
 import MainCate from './catcompoants/MainCate'
+import Formselect from './catcompoants/Formselect'
 
 import {
   BrowserRouter as Router,
@@ -23,12 +24,16 @@ export class App extends Component {
           <Route exact path="/MainCate">
             <MainCate />
           </Route>
-          <Route path="/Main">
+          <Route exact path="/Main">
           <Main />
            </Route> 
         </Switch>
-
+        <Route exact path="/Formselect">
+          <Formselect />
+           </Route> 
+        
     </Router>
+  
       </div>
     )
 

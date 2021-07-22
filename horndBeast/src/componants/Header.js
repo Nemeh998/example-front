@@ -12,6 +12,8 @@ export class Header extends Component {
       {/* <Nav.Link href="#home">Home</Nav.Link> */}
       <Nav.Link href="/MainCate">MainCate</Nav.Link>
       <Nav.Link href="/Main">Horand </Nav.Link>
+      <Nav.Link href="/Formselect">Formselect </Nav.Link>
+      
     </Nav>
     </Container>
     
